@@ -174,4 +174,9 @@ if(BUILD_SKELETON)
     add_subdirectory(skeleton)
 endif()
 
+OPTION(BUILD_YADC "Build the yadc plugin" OFF)
+if(BUILD_YADC)
+    add_subdirectory(yadc)
+endif()
+
 INCLUDE(CMakeLists.custom.txt)

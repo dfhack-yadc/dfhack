@@ -13,3 +13,6 @@
 [submodule "scripts2"]
 	path = scripts
 	url = git://github.com/dfhack/scripts.git
+[submodule "plugins/yadc"]
+	path = plugins/yadc
+	url = https://github.com/lethosor/yadc-plugin
